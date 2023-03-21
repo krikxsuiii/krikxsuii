@@ -5,12 +5,13 @@ import Sign from './components/Sign';
 import Navbar from './components/Navbar';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
+import Validation from './components/Validation';
 
 function App() {
   return (
     <div className="App">
   
-    <BrowserRouter>
+    {/* <BrowserRouter>
     <Navbar />
      <Routes>
       <Route path='/home' element={<Home/>} />
@@ -18,7 +19,8 @@ function App() {
       <Route path='/signup' element={<Sign />} />
 
       </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
+      <Validation />
   </div> 
   );
 }
